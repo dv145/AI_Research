@@ -1,4 +1,4 @@
-# AI_Research
+# Using Machine Learning to Predict the Points Per Game in the NBA
 
 Independent Research Project
 
