@@ -9,5 +9,3 @@ An interactive applet can be found on my blog at https://www.stuff-blog.com/spor
 ## Dataset
 
 A total of 15 variables were used in the dataset X. The data was scraped from NBAStuffer.com [2011]. To train the models, data from the 2010-11 NBA regular seasons was collected and compiled. Thus, the dimensions of X is 52692 × 15, where 52692 is the sum of the total number of players for each season from 2010-11 to 2019-20. The dataset was then separated randomly into a training and testing set (67% training and 33% testing). The relevant scraped data can be found in .csv files in the stats folder.
-
-<img width="240" alt="Sample Player Object" src="https://user-images.githubusercontent.com/82046907/152797936-33b89985-c8f6-4cc2-9b39-c400ec21328a.png">
