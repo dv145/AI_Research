@@ -2,37 +2,13 @@
 
 Independent Research Project
 
-say you have 12 sessions
+Every year billions of dollars are lost on uninformed prop bets. This paper proposes a model to predict points per game in the NBA, which can help mitigate these losses using high-accuracy mathematical predictions. A novel method using a multi-layer perceptron built on individual and team statistics is described in this paper. The proposed model has an R2 of nearly 0.8, outperforming most publicly available models for the same, with the major difference being feature engineering and the implementation of a neural network. The proposed model is therefore suitable for further academic and practical research and application, both public and private.
 
 ## Dataset
 
-This section describes what the data is doing. Please describe the dimension of the data. What are the variables? What type of analysis are we looking at? (2 sessions)
+A total of 15 variables were used in the dataset X. The data was scraped from NBAStuffer.com [2011]. To train the models, data from the 2010-11 NBA regular seasons was collected and compiled. Thus, the dimensions of X is 52692 × 15, where 52692 is the sum of the total number of players for each season from 2010-11 to 2019-20. The dataset was then separated randomly into a training and testing set (67% training and 33% testing).
 
-- Motivation: why this data set is interesting/important/...?
-- Example 1: image recognition => technology: we train an AI to classify / recognize the digits in a picture => if successful, we can deploy the technology in traffic cameras and we can trace the license plate if a traffic incidence happened => community impact
-- Example 2: image recognition => technology: we train an AI to recognize hand gestures in the picture / video => 
-                 scenario (i): deploying this AI to play rock, paper scissors
-                 scenario (ii): deploying this AI to recognize the American Sign Language in order to communicate with the deaf people
                  
-Resources:
-- UCI Machine Learning Repository: click [here](https://archive.ics.uci.edu/ml/index.php)
-- Paper with Code: click [here](https://paperswithcode.com/datasets)
-
-Steps to take:
-- Pick a source from above and download a data (try 3-5 datasets)
-- Load in your favorite programming language: say python, panda dataframe, numpy, etc... see plot the shapes, head of the table, plot a few graphs (use this link as an example: [here](https://www.kaggle.com/zachgold/python-iris-data-visualizations)
-- Try build a roadmap: 
-         for each data: build the following => what is the data => what is the potential technology => motivation: why is it interesting?
-
-Ex: Iris data set => this data describes 4 features of flowers and there are 3 different types of flowers => technology: build an AI to recognize the type of flowers by reading in the 4 features I provide => Motivation: for plant lovers, we can design an app so that the users can enter the width and length to determine what flowers they are planting
-
-## Benchmark
-
-This section does literature review. Suppose a dataset is chosen. This section covers some important models or algorithms that are currently performing well in the literature and briefly discuss their advantages and disadvantages. (this is scattered throughout the program, but I am expecting 1 sessions)
-- Model 1: Decision Tree => 96% (this is done)
-- Model 2: 70% why it's bad 
-- Model 3: xxxx
-- take some notes ...
 
 ## Proposed Model/Algorithm
 
